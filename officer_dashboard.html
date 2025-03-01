@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Officer Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Traffic Officer Dashboard</h1>
+        <button onclick="logout()">Logout</button>
+    </header>
+    <main>
+        <h2>Traffic Violation Notices</h2>
+        <button onclick="issueViolation()">Issue Violation Notice</button>
+        
+        <h2>Real-Time Traffic Flow Monitoring</h2>
+        <div id="traffic-monitoring">Loading...</div>
+        
+        <h2>Traffic Signal Control</h2>
+        <button onclick="adjustSignals()">Adjust Traffic Signals</button>
+    </main>
+    
+    <script src="script.js"></script>
+    <script>
+        function issueViolation() {
+            alert("Violation notice issued!");
+        }
+        
+        function adjustSignals() {
+            alert("Traffic signals adjusted!");
+        }
+    </script>
+</body>
+</html>

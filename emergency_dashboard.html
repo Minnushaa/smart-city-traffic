@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Services Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Emergency Services Dashboard</h1>
+        <button onclick="logout()">Logout</button>
+    </header>
+    <main>
+        <h2>Traffic Clearance Request</h2>
+        <button onclick="requestClearance()">Request Traffic Clearance</button>
+        
+        <h2>Emergency Route Planning</h2>
+        <button onclick="planEmergencyRoute()">Plan Emergency Route</button>
+        
+        <h2>Incident Response Management</h2>
+        <button onclick="manageIncidents()">Manage Incidents</button>
+        
+        <h2>Real-Time Traffic Updates</h2>
+        <div id="emergency-traffic-updates">Loading...</div>
+    </main>
+    
+    <script src="script.js"></script>
+    <script>
+        function requestClearance() {
+            alert("Traffic clearance requested!");
+        }
+        
+        function planEmergencyRoute() {
+            alert("Emergency route planned!");
+        }
+        
+        function manageIncidents() {
+            alert("Incident management panel opened!");
+        }
+    </script>
+</body>
+</html>

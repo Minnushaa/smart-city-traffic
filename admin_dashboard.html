@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Administrator Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>System Administrator Dashboard</h1>
+        <button onclick="logout()">Logout</button>
+    </header>
+    <main>
+        <h2>User Access Management</h2>
+        <button onclick="manageUsers()">Manage Users</button>
+        
+        <h2>Traffic Rule Configuration</h2>
+        <button onclick="configureRules()">Configure Rules</button>
+        
+        <h2>System Settings Management</h2>
+        <button onclick="manageSettings()">Manage Settings</button>
+        
+        <h2>Audit Log</h2>
+        <button onclick="viewAuditLog()">View Audit Log</button>
+    </main>
+    
+    <script src="script.js"></script>
+    <script>
+        function manageUsers() {
+            alert("User management panel opened!");
+        }
+        
+        function configureRules() {
+            alert("Traffic rules configuration panel opened!");
+        }
+        
+        function manageSettings() {
+            alert("System settings panel opened!");
+        }
+        
+        function viewAuditLog() {
+            alert("Audit logs displayed!");
+        }
+    </script>
+</body>
+</html>

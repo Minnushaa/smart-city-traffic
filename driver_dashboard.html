@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Driver Dashboard</h1>
+        <button onclick="logout()">Logout</button>
+    </header>
+    <main>
+        <h2>Real-Time Traffic Updates</h2>
+        <div id="traffic-updates">Loading...</div>
+        
+        <h2>Alternative Route Suggestions</h2>
+        <div id="route-suggestions">Loading...</div>
+        
+        <h2>Report a Traffic Incident</h2>
+        <button onclick="reportIncident()">Report Incident</button>
+    </main>
+    
+    <script src="script.js"></script>
+    <script>
+        function reportIncident() {
+            alert("Incident reported successfully!");
+        }
+    </script>
+</body>
+</html>
